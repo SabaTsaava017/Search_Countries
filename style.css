@@ -26,3 +26,35 @@ header{
     color: white;
     padding-top: 5px;
 }
+.Search_input{
+    width: 280px;
+    height: 36px;
+    margin-top: 60px;
+    margin-left: 50px;
+    background-color: #2B3844;
+    border-radius: 3px;
+    color: white;
+}
+.filter_button{
+    width: 120px;
+    height: 36px;
+    margin-top: 60px;
+    border-radius: 3px;
+    margin-left: 1020px;
+    background-color: #2B3844;
+    color: white;
+}
+.Flag{
+    width: 267px;
+    height: 160px;
+}
+.Country_information{
+    color: white;
+}
+.Card{
+    background-color:  #2B3844;
+    width: 267px;
+    height: 320px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
