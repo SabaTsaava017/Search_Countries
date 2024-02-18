@@ -7,7 +7,7 @@ body{
     display: flex;
     background-color: #202C36;
 }
-.container{
+.Container{
     margin: 0 auto;
 }
 h1{
@@ -20,7 +20,6 @@ h1{
 header{
     background-color:  #2B3844;
     display: flex;
-    justify-content: center;
 }
 .Dark_Mode{
     margin-left: 1199px;
@@ -88,4 +87,29 @@ header{
     display: flex;
     gap: 40px;
     margin-top: 19px;
+}
+
+/* Add responsive styles for iPhone 13 */
+@media screen and (max-width: 428px) {
+    .Container {
+        padding: 10px;
+    }
+
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Card {
+        width: 100%;
+    }
+
+    .Search_input {
+        width: calc(100% - 10px);
+    }
+
+    .filter_button {
+        width: calc(100% - 10px);
+    }
 }
